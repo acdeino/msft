@@ -17,20 +17,43 @@ else:
 
 
 first_value = True
-second_value6 = "6"
+second_value = "6"
 if first_value:
     if second_value == "6":
         print("Ok!")
-        
+
+print("\n")
+
 
 print(type("Hello World!"))
-print(type("7"))
-print(type("18.456"))
+print(type(7))
+print(type(18.456))
 
 print(type(True))    
 print(type(False))
 
 print(type('True'))
-print(type('Falso'))
+print(type('False'))
+print("\n")
+
+
+
+print(bool("True"))
+print(bool("False"))
+print(bool(" "))
+print(bool(' '))
+print(bool("String"))
+print("\n")
+
+print(bool(7))
+print(bool(0))
+print(bool(-1))
+print(bool(1.58))
+print(bool(-1.58))
+print("\n")
+
+print(1 + 1 == 3)
+print(2 + 2 == 4)
+
 
 print ("Finished!")
