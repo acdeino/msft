@@ -55,5 +55,33 @@ print("\n")
 print(1 + 1 == 3)
 print(2 + 2 == 4)
 
+print(3 == 4)
+print(3 != 4)
+print(3 > 4)
+print(3 < 4)
+print(3 >= 4)
+print(3 <= 4)
+print("\n")
+
+first_number = 5
+second_number = 0
+true_value = True
+false_value = False
+
+if first_number > 1 and first_number < 10:
+    print("The Number is between 1 and 10.")
+if first_number > 1 or second_number < 1:
+    print("At least one value is greater than one")
+
+print(not true_value)
+print(not false_value)
+
+if not first_number > 1 and second_number < 10:
+    print("Both values passe the test")
+else:
+    print("Both values do NOT pass the test")
+
+print("\n")
+
 
 print ("Finished!")
