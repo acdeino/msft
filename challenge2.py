@@ -7,7 +7,7 @@ fifth_value = 'fifth'
 sixth_value = 'sixth'
 
 # First challenge
-
+first_value()
 
 # Second challenge
 
