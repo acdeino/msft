@@ -64,7 +64,7 @@ message = message.replace("essence", 'soul')
 print(message)
 
 print("\n")
-print("Hypens Adjusting")
+print("- Hypens Adjusting -")
 message = "howdy"
 print(message.rjust(20))
 print(message.rjust(20, '-'))
