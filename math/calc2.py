@@ -1,21 +1,18 @@
-print("This program allows you to do simple calculations.")
-print("Sum, Difference, Product, Quotient, Module and exponent are the possible operations\n")
-first_number = input("Please insert here your first number: ")
+print("Python Calculator")
+
+first_number = ("Insert the first number: ")
 
 if first_number.isnumeric() == False:
-    print('Please input a number.')
+    print("Please insert a numeric value.")
     exit()
 
-operation = ("Insert here the symbol of the operation you want to do: ")
+operation = ("Which kind of operation do you want to do? ¬ Please insert + - * / % ** only. ¬ ")
 
-second_number = ("Insert here your second number: ")
+second_number = input("Insert here the second number: ")
 
 if second_number.isnumeric() == False:
-    print("Please insert a number.")
+    print("Please insert a numeric value.")
     exit()
-
-first_number = int(first_number)
-second_number = int(second_number)
 
 result = 0
 if operation == "+":
@@ -36,8 +33,6 @@ elif operation == "%":
 elif operation == "**":
     result = first_number ** second_number
     label = "exponential"
-else:
-    print("Operation not recognised.")
-    exit()
 
-print(label + " of " + str(first_number) + " " + operation + str(second_number) + " equals " + str(result))
+
+print("The"+ label + " of " + str(first_number) + " and " + str(second_number) + " is " + str(result))
