@@ -41,3 +41,15 @@ print(type(z))                  # Boolean
 print("\n")
 
 
+
+
+
+
+
+
+# Checks Python installed version
+import sys
+
+print("Python version: " + sys.version)
+print("Version info: ")
+print(sys.version_info)
