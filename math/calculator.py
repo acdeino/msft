@@ -6,9 +6,9 @@ if first_number.isnumeric() == False:
     print('Please input a number.')
     exit()
 
-operation = ("Insert here the symbol of the operation you want to do: ")
+operation = input("Insert here the symbol of the operation you want to do: ")
 
-second_number = ("Insert here your second number: ")
+second_number = input("Insert here your second number: ")
 
 if second_number.isnumeric() == False:
     print("Please insert a number.")
