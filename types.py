@@ -1,0 +1,10 @@
+print(type(7))
+print(type(7.5))
+print(type("Hello"))
+print(type(7.4388880927560984376832673659873265309463503410))
+
+print(isinstance(7, int))
+print(isinstance(7.5, float))
+print(isinstance(7, str))
+print(isinstance("Hello", str))
+print(isinstance("Hello", float))
